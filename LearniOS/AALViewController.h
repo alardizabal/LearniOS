@@ -12,6 +12,9 @@
 @interface AALViewController : UIViewController
 
 @property (nonatomic) UIPageViewController *pageViewController;
+
 @property (nonatomic) NSArray *pageImages;
+@property (nonatomic) NSArray *aalPageImages;
+@property (nonatomic) NSArray *pkpPageImages;
 
 @end

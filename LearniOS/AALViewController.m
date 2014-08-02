@@ -20,9 +20,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    self.pageImages = @[@"freedom_tower", @"times_square", @"freedom_tower", @"times_square", @"freedom_tower"];
-    
-    
     // Create page view controller
     self.pageViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PageViewController"];
     self.pageViewController.dataSource = self;
@@ -88,6 +85,14 @@
     AALPageContentViewController *pageContentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PageContentViewController"];
     pageContentViewController.imageFile = self.pageImages[index];
     pageContentViewController.pageIndex = index;
+    
+    if (index == 4) {
+        UIButton *quizButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        [quizButton addTarget:self action:@selector(takeQuiz:) forControlEvents:UIControlEventTouchUpInside];
+        [quizButton setTitle:@"Take Quiz" forState:UIControlStateNormal];
+        quizButton.frame = CGRectMake(80, 210, 160, 40);
+        [pageContentViewController.view addSubview:quizButton];
+    }
     
     return pageContentViewController;
 }

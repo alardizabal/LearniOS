@@ -30,6 +30,24 @@
             </objects>
             <point key="canvasLocation" x="1021" y="-287"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="1zn-rc-WDf">
+            <objects>
+                <viewController id="JDz-XW-VL6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="85t-OG-aIS"/>
+                        <viewControllerLayoutGuide type="bottom" id="p0k-c4-LhK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uom-qh-pnG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KBl-hg-MXe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1442" y="138"/>
+        </scene>
         <!--Page Content View Controller-->
         <scene sceneID="sfp-3l-BGW">
             <objects>
@@ -73,7 +91,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vXZ-lx-hvc" kind="modal" id="X6t-Kx-Nju"/>
+                                    <segue destination="Yai-Hm-7OS" kind="modal" id="ciI-Lq-Omk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -82,7 +100,52 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1gT-Bz-Plg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="175" y="138"/>
+            <point key="canvasLocation" x="-223" y="138"/>
+        </scene>
+        <!--Level View Controller-->
+        <scene sceneID="cST-pf-1qI">
+            <objects>
+                <viewController id="Yai-Hm-7OS" customClass="AALLevelViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="W3C-r9-T4h"/>
+                        <viewControllerLayoutGuide type="bottom" id="e3Y-hR-zmu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T7h-Qp-qaB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sx4-3a-6FZ">
+                                <rect key="frame" x="137" y="126" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Peter">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="8bi-b5-t15"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxe-oC-eL3">
+                                <rect key="frame" x="137" y="376" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Albert">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="joZ-5y-Fps"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3HH-P6-cdc"/>
+                    <connections>
+                        <outlet property="albertButton" destination="fxe-oC-eL3" id="gPm-2h-3Hm"/>
+                        <outlet property="peterButton" destination="Sx4-3a-6FZ" id="QHT-HH-njR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="REC-7w-YcD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="210" y="138"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -90,4 +153,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="joZ-5y-Fps"/>
+    </inferredMetricsTieBreakers>
 </document>

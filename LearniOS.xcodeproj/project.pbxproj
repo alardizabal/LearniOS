@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		42D0FEECA4F84D6BBA5EEF40 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3D4ADF6C474BEAB8DD1547 /* libPods.a */; };
 		A297F64A1979AEBD00F55AC3 /* AALPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A297F6491979AEBD00F55AC3 /* AALPageContentViewController.m */; };
+		A2C583E4198D61560043F0E1 /* AALLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C583E3198D61560043F0E1 /* AALLevelViewController.m */; };
 		A2DCF11419789482007CE81F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DCF11319789482007CE81F /* Foundation.framework */; };
 		A2DCF11619789482007CE81F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DCF11519789482007CE81F /* CoreGraphics.framework */; };
 		A2DCF11819789482007CE81F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DCF11719789482007CE81F /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 		6E3D4ADF6C474BEAB8DD1547 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A297F6481979AEBD00F55AC3 /* AALPageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALPageContentViewController.h; sourceTree = "<group>"; };
 		A297F6491979AEBD00F55AC3 /* AALPageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALPageContentViewController.m; sourceTree = "<group>"; };
+		A2C583E2198D61560043F0E1 /* AALLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALLevelViewController.h; sourceTree = "<group>"; };
+		A2C583E3198D61560043F0E1 /* AALLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALLevelViewController.m; sourceTree = "<group>"; };
 		A2DCF11019789482007CE81F /* LearniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DCF11319789482007CE81F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A2DCF11519789482007CE81F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +127,8 @@
 				A2DCF12219789482007CE81F /* AALAppDelegate.h */,
 				A2DCF12319789482007CE81F /* AALAppDelegate.m */,
 				A2DCF12519789482007CE81F /* Main.storyboard */,
+				A2C583E2198D61560043F0E1 /* AALLevelViewController.h */,
+				A2C583E3198D61560043F0E1 /* AALLevelViewController.m */,
 				A297F6481979AEBD00F55AC3 /* AALPageContentViewController.h */,
 				A297F6491979AEBD00F55AC3 /* AALPageContentViewController.m */,
 				A2DCF12819789482007CE81F /* AALViewController.h */,
@@ -297,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2DCF12019789482007CE81F /* main.m in Sources */,
+				A2C583E4198D61560043F0E1 /* AALLevelViewController.m in Sources */,
 				A2DCF12419789482007CE81F /* AALAppDelegate.m in Sources */,
 				A297F64A1979AEBD00F55AC3 /* AALPageContentViewController.m in Sources */,
 				A2DCF12A19789482007CE81F /* AALViewController.m in Sources */,
