@@ -1,10 +1,13 @@
 PODS:
+  - OBDragDrop (1.0.0)
   - pop (1.0.6)
 
 DEPENDENCIES:
+  - OBDragDrop
   - pop (~> 1.0)
 
 SPEC CHECKSUMS:
+  OBDragDrop: 45e232a3df0b9f8aa94a92f6b7512d9177019ec0
   pop: e518794da38942c05255eb64b36d894e70cb4f00
 
 COCOAPODS: 0.33.1

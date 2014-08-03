@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-OBDragDrop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6209952267E3419FA199F621</key>
+		<key>46D3BBF8D9D3462186A87166</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>70DB6BD957FC41BFA141C80F</key>
+		<key>5BEE268E05284DF4BE26ED48</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>941B0D67B0BB43249EA1BC0A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

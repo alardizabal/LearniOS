@@ -51,9 +51,9 @@
     AALViewController *vc = [segue destinationViewController];
     
     if (sender == self.peterButton) {
-        vc.pageImages = @[@"enter_variables", @"times_square", @"freedom_tower", @"times_square", @"freedom_tower"];
+        vc.pageImages = @[@"Peter Intro", @"Peter Variables", @"Peter Variables 2", @"Peter Pointers", @"freedom_tower"];
     } else {
-        vc.pageImages = @[@"freedom_tower", @"times_square", @"freedom_tower", @"times_square", @"freedom_tower"];
+        vc.pageImages = @[@"Albert Classes", @"Albert Properties", @"Albert Methods", @"Albert Instances", @"Albert Conclusion"];
     }
 
 }

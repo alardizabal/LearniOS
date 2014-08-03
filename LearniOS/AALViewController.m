@@ -8,6 +8,7 @@
 
 #import "AALViewController.h"
 #import "AALPageContentViewController.h"
+#import "AALQuizViewController.h"
 
 @interface AALViewController ()
 
@@ -87,14 +88,34 @@
     pageContentViewController.pageIndex = index;
     
     if (index == 4) {
+        
+        UIView *buttonBackgroundView = [[UIView alloc]initWithFrame:CGRectMake(100, 390, 120, 120)];
+        buttonBackgroundView.backgroundColor = [UIColor greenColor];
+        buttonBackgroundView.layer.cornerRadius = buttonBackgroundView.frame.size.height/2;
+        buttonBackgroundView.clipsToBounds = YES;
+        [pageContentViewController.view addSubview:buttonBackgroundView];
+        
+        UIView *buttonView = [[UIView alloc]initWithFrame:CGRectMake(110, 400, 100, 100)];
+        buttonView.backgroundColor = [UIColor whiteColor];
+        buttonView.layer.cornerRadius = buttonView.frame.size.height/2;
+        buttonView.clipsToBounds = YES;
+        [pageContentViewController.view addSubview:buttonView];
+        
         UIButton *quizButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
         [quizButton addTarget:self action:@selector(takeQuiz:) forControlEvents:UIControlEventTouchUpInside];
-        [quizButton setTitle:@"Take Quiz" forState:UIControlStateNormal];
-        quizButton.frame = CGRectMake(80, 210, 160, 40);
+        [quizButton setTitle:@"Take Quiz!" forState:UIControlStateNormal];
+        quizButton.frame = CGRectMake(110, 400, 100, 100);
         [pageContentViewController.view addSubview:quizButton];
     }
     
     return pageContentViewController;
+}
+
+- (IBAction)takeQuiz:(id)sender {
+    
+    AALQuizViewController *quizVC = [self.storyboard instantiateViewControllerWithIdentifier:@"quizVC"];
+    [self presentViewController:quizVC animated:NO completion:nil];
+    
 }
 
 - (NSInteger)presentationCountForPageViewController:(UIPageViewController *)pageViewController
