@@ -8,6 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		42D0FEECA4F84D6BBA5EEF40 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3D4ADF6C474BEAB8DD1547 /* libPods.a */; };
+		A25BFEF9199024E70069F175 /* QZAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BFEDB199024E70069F175 /* QZAAppDelegate.m */; };
+		A25BFEFA199024E70069F175 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25BFEDC199024E70069F175 /* Storyboard.storyboard */; };
+		A25BFEFB199024E70069F175 /* QZAQuestionAndAnswers.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BFEDE199024E70069F175 /* QZAQuestionAndAnswers.m */; };
+		A25BFEFC199024E70069F175 /* QZAGenerateQandA.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BFEE0199024E70069F175 /* QZAGenerateQandA.m */; };
+		A25BFEFD199024E70069F175 /* QZABasicQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BFEE2199024E70069F175 /* QZABasicQuizViewController.m */; };
+		A25BFEFE199024E70069F175 /* QZASelectCellsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BFEE4199024E70069F175 /* QZASelectCellsTableViewController.m */; };
+		A25BFEFF199024E70069F175 /* QZASwipeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BFEE6199024E70069F175 /* QZASwipeTableViewController.m */; };
+		A25BFF00199024E70069F175 /* QZAPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BFEE8199024E70069F175 /* QZAPickerViewController.m */; };
+		A25BFF01199024E70069F175 /* QZADragRowsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BFEEA199024E70069F175 /* QZADragRowsTableViewController.m */; };
+		A25BFF02199024E70069F175 /* QZAAlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BFEEC199024E70069F175 /* QZAAlertViewManager.m */; };
+		A25BFF03199024E70069F175 /* QZARewardsOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BFEEE199024E70069F175 /* QZARewardsOptions.m */; };
+		A25BFF04199024E70069F175 /* QZADogeOutcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BFEF0199024E70069F175 /* QZADogeOutcomeViewController.m */; };
+		A25BFF05199024E70069F175 /* QZAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BFEF2199024E70069F175 /* QZAWebViewController.m */; };
+		A25BFF06199024E70069F175 /* QZAFacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BFEF4199024E70069F175 /* QZAFacebookViewController.m */; };
+		A25BFF07199024E70069F175 /* QZACheckAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BFEF6199024E70069F175 /* QZACheckAnswer.m */; };
+		A25BFF08199024E70069F175 /* apple.gif in Resources */ = {isa = PBXBuildFile; fileRef = A25BFEF7199024E70069F175 /* apple.gif */; };
+		A25BFF09199024E70069F175 /* doge.png in Resources */ = {isa = PBXBuildFile; fileRef = A25BFEF8199024E70069F175 /* doge.png */; };
+		A25BFF0B19903ADB0069F175 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = A25BFF0A19903ADB0069F175 /* checkmark.png */; };
 		A297F64A1979AEBD00F55AC3 /* AALPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A297F6491979AEBD00F55AC3 /* AALPageContentViewController.m */; };
 		A2C583E4198D61560043F0E1 /* AALLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C583E3198D61560043F0E1 /* AALLevelViewController.m */; };
 		A2C583E7198DB2550043F0E1 /* AALQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C583E6198DB2550043F0E1 /* AALQuizViewController.m */; };
@@ -42,6 +60,38 @@
 
 /* Begin PBXFileReference section */
 		6E3D4ADF6C474BEAB8DD1547 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25BFEDA199024E70069F175 /* QZAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAAppDelegate.h; sourceTree = "<group>"; };
+		A25BFEDB199024E70069F175 /* QZAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAAppDelegate.m; sourceTree = "<group>"; };
+		A25BFEDC199024E70069F175 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		A25BFEDD199024E70069F175 /* QZAQuestionAndAnswers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAQuestionAndAnswers.h; sourceTree = "<group>"; };
+		A25BFEDE199024E70069F175 /* QZAQuestionAndAnswers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAQuestionAndAnswers.m; sourceTree = "<group>"; };
+		A25BFEDF199024E70069F175 /* QZAGenerateQandA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAGenerateQandA.h; sourceTree = "<group>"; };
+		A25BFEE0199024E70069F175 /* QZAGenerateQandA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAGenerateQandA.m; sourceTree = "<group>"; };
+		A25BFEE1199024E70069F175 /* QZABasicQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZABasicQuizViewController.h; sourceTree = "<group>"; };
+		A25BFEE2199024E70069F175 /* QZABasicQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZABasicQuizViewController.m; sourceTree = "<group>"; };
+		A25BFEE3199024E70069F175 /* QZASelectCellsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZASelectCellsTableViewController.h; sourceTree = "<group>"; };
+		A25BFEE4199024E70069F175 /* QZASelectCellsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZASelectCellsTableViewController.m; sourceTree = "<group>"; };
+		A25BFEE5199024E70069F175 /* QZASwipeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZASwipeTableViewController.h; sourceTree = "<group>"; };
+		A25BFEE6199024E70069F175 /* QZASwipeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZASwipeTableViewController.m; sourceTree = "<group>"; };
+		A25BFEE7199024E70069F175 /* QZAPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAPickerViewController.h; sourceTree = "<group>"; };
+		A25BFEE8199024E70069F175 /* QZAPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAPickerViewController.m; sourceTree = "<group>"; };
+		A25BFEE9199024E70069F175 /* QZADragRowsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZADragRowsTableViewController.h; sourceTree = "<group>"; };
+		A25BFEEA199024E70069F175 /* QZADragRowsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZADragRowsTableViewController.m; sourceTree = "<group>"; };
+		A25BFEEB199024E70069F175 /* QZAAlertViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAAlertViewManager.h; sourceTree = "<group>"; };
+		A25BFEEC199024E70069F175 /* QZAAlertViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAAlertViewManager.m; sourceTree = "<group>"; };
+		A25BFEED199024E70069F175 /* QZARewardsOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZARewardsOptions.h; sourceTree = "<group>"; };
+		A25BFEEE199024E70069F175 /* QZARewardsOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZARewardsOptions.m; sourceTree = "<group>"; };
+		A25BFEEF199024E70069F175 /* QZADogeOutcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZADogeOutcomeViewController.h; sourceTree = "<group>"; };
+		A25BFEF0199024E70069F175 /* QZADogeOutcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZADogeOutcomeViewController.m; sourceTree = "<group>"; };
+		A25BFEF1199024E70069F175 /* QZAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAWebViewController.h; sourceTree = "<group>"; };
+		A25BFEF2199024E70069F175 /* QZAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAWebViewController.m; sourceTree = "<group>"; };
+		A25BFEF3199024E70069F175 /* QZAFacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAFacebookViewController.h; sourceTree = "<group>"; };
+		A25BFEF4199024E70069F175 /* QZAFacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAFacebookViewController.m; sourceTree = "<group>"; };
+		A25BFEF5199024E70069F175 /* QZACheckAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZACheckAnswer.h; sourceTree = "<group>"; };
+		A25BFEF6199024E70069F175 /* QZACheckAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZACheckAnswer.m; sourceTree = "<group>"; };
+		A25BFEF7199024E70069F175 /* apple.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = apple.gif; sourceTree = "<group>"; };
+		A25BFEF8199024E70069F175 /* doge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doge.png; sourceTree = "<group>"; };
+		A25BFF0A19903ADB0069F175 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
 		A297F6481979AEBD00F55AC3 /* AALPageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALPageContentViewController.h; sourceTree = "<group>"; };
 		A297F6491979AEBD00F55AC3 /* AALPageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALPageContentViewController.m; sourceTree = "<group>"; };
 		A2C583E2198D61560043F0E1 /* AALLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALLevelViewController.h; sourceTree = "<group>"; };
@@ -101,6 +151,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A25BFED8199024AE0069F175 /* Albert */ = {
+			isa = PBXGroup;
+			children = (
+				A2DCF12219789482007CE81F /* AALAppDelegate.h */,
+				A2DCF12319789482007CE81F /* AALAppDelegate.m */,
+				A2DCF12519789482007CE81F /* Main.storyboard */,
+				A2E7AA9D198EBA380075CDD5 /* AALHomeViewController.h */,
+				A2E7AA9E198EBA380075CDD5 /* AALHomeViewController.m */,
+				A2C583E5198DB2550043F0E1 /* AALQuizViewController.h */,
+				A2C583E6198DB2550043F0E1 /* AALQuizViewController.m */,
+				A2C583E8198DC0570043F0E1 /* AALDraggableControl.h */,
+				A2C583E9198DC0570043F0E1 /* AALDraggableControl.m */,
+				A2C583EB198DC0DA0043F0E1 /* AALDraggableControlsView.h */,
+				A2C583EC198DC0DA0043F0E1 /* AALDraggableControlsView.m */,
+				A2C583E2198D61560043F0E1 /* AALLevelViewController.h */,
+				A2C583E3198D61560043F0E1 /* AALLevelViewController.m */,
+				A297F6481979AEBD00F55AC3 /* AALPageContentViewController.h */,
+				A297F6491979AEBD00F55AC3 /* AALPageContentViewController.m */,
+				A2DCF12819789482007CE81F /* AALViewController.h */,
+				A2DCF12919789482007CE81F /* AALViewController.m */,
+			);
+			name = Albert;
+			sourceTree = "<group>";
+		};
+		A25BFED9199024BB0069F175 /* Peter */ = {
+			isa = PBXGroup;
+			children = (
+				A25BFEDA199024E70069F175 /* QZAAppDelegate.h */,
+				A25BFEDB199024E70069F175 /* QZAAppDelegate.m */,
+				A25BFEDC199024E70069F175 /* Storyboard.storyboard */,
+				A25BFEDD199024E70069F175 /* QZAQuestionAndAnswers.h */,
+				A25BFEDE199024E70069F175 /* QZAQuestionAndAnswers.m */,
+				A25BFEDF199024E70069F175 /* QZAGenerateQandA.h */,
+				A25BFEE0199024E70069F175 /* QZAGenerateQandA.m */,
+				A25BFEE1199024E70069F175 /* QZABasicQuizViewController.h */,
+				A25BFEE2199024E70069F175 /* QZABasicQuizViewController.m */,
+				A25BFEE3199024E70069F175 /* QZASelectCellsTableViewController.h */,
+				A25BFEE4199024E70069F175 /* QZASelectCellsTableViewController.m */,
+				A25BFEE5199024E70069F175 /* QZASwipeTableViewController.h */,
+				A25BFEE6199024E70069F175 /* QZASwipeTableViewController.m */,
+				A25BFEE7199024E70069F175 /* QZAPickerViewController.h */,
+				A25BFEE8199024E70069F175 /* QZAPickerViewController.m */,
+				A25BFEE9199024E70069F175 /* QZADragRowsTableViewController.h */,
+				A25BFEEA199024E70069F175 /* QZADragRowsTableViewController.m */,
+				A25BFEEB199024E70069F175 /* QZAAlertViewManager.h */,
+				A25BFEEC199024E70069F175 /* QZAAlertViewManager.m */,
+				A25BFEED199024E70069F175 /* QZARewardsOptions.h */,
+				A25BFEEE199024E70069F175 /* QZARewardsOptions.m */,
+				A25BFEEF199024E70069F175 /* QZADogeOutcomeViewController.h */,
+				A25BFEF0199024E70069F175 /* QZADogeOutcomeViewController.m */,
+				A25BFEF1199024E70069F175 /* QZAWebViewController.h */,
+				A25BFEF2199024E70069F175 /* QZAWebViewController.m */,
+				A25BFEF3199024E70069F175 /* QZAFacebookViewController.h */,
+				A25BFEF4199024E70069F175 /* QZAFacebookViewController.m */,
+				A25BFEF5199024E70069F175 /* QZACheckAnswer.h */,
+				A25BFEF6199024E70069F175 /* QZACheckAnswer.m */,
+				A25BFF0A19903ADB0069F175 /* checkmark.png */,
+				A25BFEF7199024E70069F175 /* apple.gif */,
+				A25BFEF8199024E70069F175 /* doge.png */,
+			);
+			name = Peter;
+			sourceTree = "<group>";
+		};
 		A2DCF10719789482007CE81F = {
 			isa = PBXGroup;
 			children = (
@@ -136,23 +249,8 @@
 		A2DCF11919789482007CE81F /* LearniOS */ = {
 			isa = PBXGroup;
 			children = (
-				A2DCF12219789482007CE81F /* AALAppDelegate.h */,
-				A2DCF12319789482007CE81F /* AALAppDelegate.m */,
-				A2DCF12519789482007CE81F /* Main.storyboard */,
-				A2E7AA9D198EBA380075CDD5 /* AALHomeViewController.h */,
-				A2E7AA9E198EBA380075CDD5 /* AALHomeViewController.m */,
-				A2C583E5198DB2550043F0E1 /* AALQuizViewController.h */,
-				A2C583E6198DB2550043F0E1 /* AALQuizViewController.m */,
-				A2C583E8198DC0570043F0E1 /* AALDraggableControl.h */,
-				A2C583E9198DC0570043F0E1 /* AALDraggableControl.m */,
-				A2C583EB198DC0DA0043F0E1 /* AALDraggableControlsView.h */,
-				A2C583EC198DC0DA0043F0E1 /* AALDraggableControlsView.m */,
-				A2C583E2198D61560043F0E1 /* AALLevelViewController.h */,
-				A2C583E3198D61560043F0E1 /* AALLevelViewController.m */,
-				A297F6481979AEBD00F55AC3 /* AALPageContentViewController.h */,
-				A297F6491979AEBD00F55AC3 /* AALPageContentViewController.m */,
-				A2DCF12819789482007CE81F /* AALViewController.h */,
-				A2DCF12919789482007CE81F /* AALViewController.m */,
+				A25BFED9199024BB0069F175 /* Peter */,
+				A25BFED8199024AE0069F175 /* Albert */,
 				A2DCF12B19789482007CE81F /* Images.xcassets */,
 				A2DCF11A19789482007CE81F /* Supporting Files */,
 			);
@@ -268,7 +366,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2DCF12C19789482007CE81F /* Images.xcassets in Resources */,
+				A25BFEFA199024E70069F175 /* Storyboard.storyboard in Resources */,
+				A25BFF09199024E70069F175 /* doge.png in Resources */,
 				A2DCF11E19789482007CE81F /* InfoPlist.strings in Resources */,
+				A25BFF08199024E70069F175 /* apple.gif in Resources */,
+				A25BFF0B19903ADB0069F175 /* checkmark.png in Resources */,
 				A2DCF12719789482007CE81F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,14 +424,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2DCF12019789482007CE81F /* main.m in Sources */,
+				A25BFEFD199024E70069F175 /* QZABasicQuizViewController.m in Sources */,
+				A25BFEFF199024E70069F175 /* QZASwipeTableViewController.m in Sources */,
+				A25BFF07199024E70069F175 /* QZACheckAnswer.m in Sources */,
+				A25BFEF9199024E70069F175 /* QZAAppDelegate.m in Sources */,
 				A2C583E4198D61560043F0E1 /* AALLevelViewController.m in Sources */,
 				A2DCF12419789482007CE81F /* AALAppDelegate.m in Sources */,
 				A2C583ED198DC0DA0043F0E1 /* AALDraggableControlsView.m in Sources */,
+				A25BFEFC199024E70069F175 /* QZAGenerateQandA.m in Sources */,
+				A25BFF01199024E70069F175 /* QZADragRowsTableViewController.m in Sources */,
 				A297F64A1979AEBD00F55AC3 /* AALPageContentViewController.m in Sources */,
 				A2C583E7198DB2550043F0E1 /* AALQuizViewController.m in Sources */,
+				A25BFF06199024E70069F175 /* QZAFacebookViewController.m in Sources */,
+				A25BFF04199024E70069F175 /* QZADogeOutcomeViewController.m in Sources */,
 				A2E7AA9F198EBA380075CDD5 /* AALHomeViewController.m in Sources */,
 				A2DCF12A19789482007CE81F /* AALViewController.m in Sources */,
+				A25BFF03199024E70069F175 /* QZARewardsOptions.m in Sources */,
 				A2C583EA198DC0570043F0E1 /* AALDraggableControl.m in Sources */,
+				A25BFF00199024E70069F175 /* QZAPickerViewController.m in Sources */,
+				A25BFEFE199024E70069F175 /* QZASelectCellsTableViewController.m in Sources */,
+				A25BFF02199024E70069F175 /* QZAAlertViewManager.m in Sources */,
+				A25BFF05199024E70069F175 /* QZAWebViewController.m in Sources */,
+				A25BFEFB199024E70069F175 /* QZAQuestionAndAnswers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

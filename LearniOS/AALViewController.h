@@ -14,7 +14,7 @@
 @property (nonatomic) UIPageViewController *pageViewController;
 
 @property (nonatomic) NSArray *pageImages;
-@property (nonatomic) NSArray *aalPageImages;
-@property (nonatomic) NSArray *pkpPageImages;
+
+@property (nonatomic) NSUInteger intLevel;
 
 @end

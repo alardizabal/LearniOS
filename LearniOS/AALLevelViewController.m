@@ -78,6 +78,7 @@
     
     AALViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"lessonsVC"];
     vc.pageImages = @[@"Peter Intro", @"Peter Variables", @"Peter Variables 2", @"Peter Pointers", @"freedom_tower"];
+    vc.intLevel = 1;
     [self presentViewController:vc animated:NO completion:nil];
     
 }
@@ -86,6 +87,7 @@
     
     AALViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"lessonsVC"];
     vc.pageImages = @[@"Albert Classes", @"Albert Properties", @"Albert Methods", @"Albert Instances", @"Albert Conclusion"];
+    vc.intLevel = 2;
     [self presentViewController:vc animated:NO completion:nil];
     
 }

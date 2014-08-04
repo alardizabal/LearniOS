@@ -9,6 +9,7 @@
 #import "AALViewController.h"
 #import "AALPageContentViewController.h"
 #import "AALQuizViewController.h"
+#import "QZABasicQuizViewController.h"
 
 @interface AALViewController ()
 
@@ -113,9 +114,20 @@
 
 - (IBAction)takeQuiz:(id)sender {
     
+    if (self.intLevel == 1) {
+        UIStoryboard *peter = [UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
+        UINavigationController *peterNav = [peter instantiateInitialViewController];
+        [self presentViewController:peterNav animated:YES completion:nil];
+        
+//        QZABasicQuizViewController *peterVC = [peter instantiateViewControllerWithIdentifier:@"peterQuizStart"];
+//        UINavigationController *navVCPeter = [[UINavigationController alloc]initWithRootViewController:peterVC];
+//        self.view
+    } else {
+    
     AALQuizViewController *quizVC = [self.storyboard instantiateViewControllerWithIdentifier:@"quizVC"];
     [self presentViewController:quizVC animated:NO completion:nil];
     
+    }
 }
 
 - (NSInteger)presentationCountForPageViewController:(UIPageViewController *)pageViewController
