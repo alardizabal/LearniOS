@@ -7,6 +7,7 @@
 //
 
 #import "AALHomeViewController.h"
+#import "AALLevelViewController.h"
 #import "AALViewController.h"
 
 @interface AALHomeViewController ()
@@ -53,7 +54,7 @@
 
 - (IBAction)playButtonPressed:(id)sender {
     
-    AALViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"levelVC"];
+    AALLevelViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"levelVC"];
     [self presentViewController:vc animated:NO completion:nil];
     
 }
