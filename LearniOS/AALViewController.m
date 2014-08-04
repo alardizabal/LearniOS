@@ -103,7 +103,7 @@
         
         UIButton *quizButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
         [quizButton addTarget:self action:@selector(takeQuiz:) forControlEvents:UIControlEventTouchUpInside];
-        [quizButton setTitle:@"Take Quiz!" forState:UIControlStateNormal];
+        [quizButton setTitle:@"Quiz Me!" forState:UIControlStateNormal];
         quizButton.frame = CGRectMake(110, 400, 100, 100);
         [pageContentViewController.view addSubview:quizButton];
     }

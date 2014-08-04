@@ -162,8 +162,25 @@
     
     NSLog(@"%f", self.controlOne.frame.origin.y);
 
-    if (self.controlOne.frame.origin.y > 200) {
-        NSLog(@"Correct");
+    if ((self.controlTwo.frame.origin.y > 200 && self.controlFour.frame.origin.y > 200 && self.controlSix.frame.origin.y > 200 && self.controlTwo.frame.origin.x < 160 && self.controlFour.frame.origin.x < 160 && self.controlSix.frame.origin.x < 160) && (self.controlOne.frame.origin.y > 200 && self.controlThree.frame.origin.y > 200 && self.controlFive.frame.origin.y > 200 && self.controlOne.frame.origin.x > 160 && self.controlThree.frame.origin.x > 160 && self.controlFive.frame.origin.x > 160)){
+        
+        UIAlertView *correctMessage = [[UIAlertView alloc] initWithTitle:@"Awesome!"
+                                                          message:@"You chose wisely."
+                                                         delegate:nil
+                                                cancelButtonTitle:nil
+                                                otherButtonTitles:@"Ok", nil];
+        
+        [correctMessage show];
+        
+    } else {
+        
+        UIAlertView *wrongMessage = [[UIAlertView alloc] initWithTitle:@"Boo!"
+                                                          message:@"You chose poorly."
+                                                         delegate:nil
+                                                cancelButtonTitle:nil
+                                                otherButtonTitles:@"Ok", nil];
+        
+        [wrongMessage show];
     }
     
 }
