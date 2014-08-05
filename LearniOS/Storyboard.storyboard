@@ -193,39 +193,7 @@
                     <view key="view" contentMode="scaleToFill" id="LYs-7b-REh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjZ-4G-kye">
-                                <rect key="frame" x="142" y="121" width="37" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Doge">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="GS7-4Y-ho2" kind="modal" identifier="dogeSegue" id="EpW-tS-Sbm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QL4-My-ccn">
-                                <rect key="frame" x="128" y="177" width="64" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Buzzfeed">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="a4y-OL-D7j" kind="modal" id="M6S-SK-p8p"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f68-hc-qW9">
-                                <rect key="frame" x="126" y="228" width="68" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Facebook">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="HRD-UD-wp4" kind="modal" id="0dH-wv-vSw"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.37647062539999998" green="0.74117648599999997" blue="0.85882359740000003" alpha="1" colorSpace="deviceRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Rewards Options" id="J20-Rj-n7c"/>
                 </viewController>
@@ -236,7 +204,7 @@
         <!--Web View Controller-->
         <scene sceneID="MlQ-HG-ZMf">
             <objects>
-                <viewController id="a4y-OL-D7j" customClass="QZAWebViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="buzzfeedVC" id="a4y-OL-D7j" customClass="QZAWebViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="760-4U-vIc"/>
                         <viewControllerLayoutGuide type="bottom" id="RVB-xr-66p"/>
@@ -264,7 +232,7 @@
         <!--Facebook View Controller-->
         <scene sceneID="48J-by-Y1X">
             <objects>
-                <viewController id="HRD-UD-wp4" customClass="QZAFacebookViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="fbVC" id="HRD-UD-wp4" customClass="QZAFacebookViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UyJ-Ey-9Oi"/>
                         <viewControllerLayoutGuide type="bottom" id="T8w-3t-wqI"/>
@@ -289,10 +257,10 @@
             </objects>
             <point key="canvasLocation" x="3797" y="728"/>
         </scene>
-        <!--Doge Outcome View Controller-->
+        <!--Doge Outcome View Controller - dogeVC-->
         <scene sceneID="uaO-R0-EDe">
             <objects>
-                <viewController id="GS7-4Y-ho2" customClass="QZADogeOutcomeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="dogeVC" title="dogeVC" id="GS7-4Y-ho2" customClass="QZADogeOutcomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1iy-5H-BYG"/>
                         <viewControllerLayoutGuide type="bottom" id="61d-Ho-VoH"/>

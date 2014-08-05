@@ -27,6 +27,9 @@
 		A25BFF09199024E70069F175 /* doge.png in Resources */ = {isa = PBXBuildFile; fileRef = A25BFEF8199024E70069F175 /* doge.png */; };
 		A25BFF0B19903ADB0069F175 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = A25BFF0A19903ADB0069F175 /* checkmark.png */; };
 		A297F64A1979AEBD00F55AC3 /* AALPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A297F6491979AEBD00F55AC3 /* AALPageContentViewController.m */; };
+		A2B007EB19912BEE00BA8F20 /* Buzzfeed.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B007EA19912BEE00BA8F20 /* Buzzfeed.png */; };
+		A2B007ED19912C0B00BA8F20 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B007EC19912C0B00BA8F20 /* icon.png */; };
+		A2B007EF19912C2900BA8F20 /* FB-f-Logo__blue_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B007EE19912C2900BA8F20 /* FB-f-Logo__blue_1024.png */; };
 		A2C583E4198D61560043F0E1 /* AALLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C583E3198D61560043F0E1 /* AALLevelViewController.m */; };
 		A2C583E7198DB2550043F0E1 /* AALQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C583E6198DB2550043F0E1 /* AALQuizViewController.m */; };
 		A2C583EA198DC0570043F0E1 /* AALDraggableControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C583E9198DC0570043F0E1 /* AALDraggableControl.m */; };
@@ -94,6 +97,9 @@
 		A25BFF0A19903ADB0069F175 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
 		A297F6481979AEBD00F55AC3 /* AALPageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALPageContentViewController.h; sourceTree = "<group>"; };
 		A297F6491979AEBD00F55AC3 /* AALPageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALPageContentViewController.m; sourceTree = "<group>"; };
+		A2B007EA19912BEE00BA8F20 /* Buzzfeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Buzzfeed.png; sourceTree = "<group>"; };
+		A2B007EC19912C0B00BA8F20 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A2B007EE19912C2900BA8F20 /* FB-f-Logo__blue_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FB-f-Logo__blue_1024.png"; sourceTree = "<group>"; };
 		A2C583E2198D61560043F0E1 /* AALLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALLevelViewController.h; sourceTree = "<group>"; };
 		A2C583E3198D61560043F0E1 /* AALLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALLevelViewController.m; sourceTree = "<group>"; };
 		A2C583E5198DB2550043F0E1 /* AALQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALQuizViewController.h; sourceTree = "<group>"; };
@@ -209,6 +215,9 @@
 				A25BFEF6199024E70069F175 /* QZACheckAnswer.m */,
 				A25BFF0A19903ADB0069F175 /* checkmark.png */,
 				A25BFEF7199024E70069F175 /* apple.gif */,
+				A2B007EA19912BEE00BA8F20 /* Buzzfeed.png */,
+				A2B007EE19912C2900BA8F20 /* FB-f-Logo__blue_1024.png */,
+				A2B007EC19912C0B00BA8F20 /* icon.png */,
 				A25BFEF8199024E70069F175 /* doge.png */,
 			);
 			name = Peter;
@@ -367,10 +376,13 @@
 			files = (
 				A2DCF12C19789482007CE81F /* Images.xcassets in Resources */,
 				A25BFEFA199024E70069F175 /* Storyboard.storyboard in Resources */,
+				A2B007ED19912C0B00BA8F20 /* icon.png in Resources */,
 				A25BFF09199024E70069F175 /* doge.png in Resources */,
 				A2DCF11E19789482007CE81F /* InfoPlist.strings in Resources */,
 				A25BFF08199024E70069F175 /* apple.gif in Resources */,
+				A2B007EF19912C2900BA8F20 /* FB-f-Logo__blue_1024.png in Resources */,
 				A25BFF0B19903ADB0069F175 /* checkmark.png in Resources */,
+				A2B007EB19912BEE00BA8F20 /* Buzzfeed.png in Resources */,
 				A2DCF12719789482007CE81F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

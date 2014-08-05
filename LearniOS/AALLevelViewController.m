@@ -38,6 +38,8 @@
     levelOneImageBackground.backgroundColor = [UIColor blackColor];
     [self.view addSubview:levelOneImageBackground];
     
+    levelOneImageBackground.transform = CGAffineTransformMakeRotation(M_PI/24);
+    
     UIImageView *levelOneImage = [[UIImageView alloc]initWithFrame:CGRectMake(10, 10, 220, 150)];
     levelOneImage.image = [UIImage imageNamed:@"charging_bull"];
     [levelOneImageBackground addSubview:levelOneImage];
@@ -48,7 +50,7 @@
     levelOneButton.frame = CGRectMake(0, 0, 240, 170);
     [levelOneImageBackground addSubview:levelOneButton];
     
-    UIImageView *lessonOneLabel = [[UIImageView alloc]initWithFrame:CGRectMake(40, 60, 200, 25)];
+    UIImageView *lessonOneLabel = [[UIImageView alloc]initWithFrame:CGRectMake(40, 40, 200, 25)];
     lessonOneLabel.contentMode = UIViewContentModeScaleAspectFit;
     lessonOneLabel.image = [UIImage imageNamed:@"Lesson 1 - Variables"];
     [self.view addSubview:lessonOneLabel];
@@ -56,6 +58,8 @@
     UIView *levelTwoImageBackground = [[UIView alloc]initWithFrame:CGRectMake(40, 350, 240, 170)];
     levelTwoImageBackground.backgroundColor = [UIColor blackColor];
     [self.view addSubview:levelTwoImageBackground];
+
+    levelTwoImageBackground.transform = CGAffineTransformMakeRotation(-(M_PI/24));
     
     UIImageView *levelTwoImage = [[UIImageView alloc]initWithFrame:CGRectMake(10, 10, 220, 150)];
     levelTwoImage.image = [UIImage imageNamed:@"times_square"];
@@ -67,7 +71,7 @@
     levelTwoButton.frame = CGRectMake(0, 0, 240, 170);
     [levelTwoImageBackground addSubview:levelTwoButton];
     
-    UIImageView *lessonTwoLabel = [[UIImageView alloc]initWithFrame:CGRectMake(40, 320, 200, 25)];
+    UIImageView *lessonTwoLabel = [[UIImageView alloc]initWithFrame:CGRectMake(40, 300, 200, 25)];
     lessonTwoLabel.contentMode = UIViewContentModeScaleAspectFit;
     lessonTwoLabel.image = [UIImage imageNamed:@"Lesson 2 - Objects"];
     [self.view addSubview:lessonTwoLabel];
@@ -77,7 +81,7 @@
 - (IBAction)levelOneButtonPressed:(id)sender {
     
     AALViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"lessonsVC"];
-    vc.pageImages = @[@"Peter Intro", @"Peter Variables", @"Peter Variables 2", @"Peter Pointers", @"freedom_tower"];
+    vc.pageImages = @[@"Peter Intro", @"Peter Variables", @"Peter Variables 2", @"Peter Pointers", @"Peter Conclusion"];
     vc.intLevel = 1;
     [self presentViewController:vc animated:NO completion:nil];
     

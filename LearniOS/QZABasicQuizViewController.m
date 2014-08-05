@@ -50,6 +50,13 @@
 
     self.successImageView.frame = CGRectMake(10.0f, 194.0f, 100, 300);
 
+    
+    self.navigationItem.backBarButtonItem =
+    [[UIBarButtonItem alloc] initWithTitle:@""
+                                      style:UIBarButtonItemStyleBordered
+                                     target:nil
+                                     action:nil];
+    
     // Do any additional setup after loading the view.
 }
 

@@ -34,6 +34,13 @@
     
     self.picker.dataSource = self;
     self.picker.delegate = self;
+    
+    self.navigationItem.backBarButtonItem =
+    [[UIBarButtonItem alloc] initWithTitle:@""
+                                     style:UIBarButtonItemStyleBordered
+                                    target:nil
+                                    action:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning

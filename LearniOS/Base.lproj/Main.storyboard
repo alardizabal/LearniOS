@@ -118,7 +118,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Learn iOS @ Flatiron" width="467" height="39"/>
+        <image name="Learn iOS @ Flatiron" width="304" height="122"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

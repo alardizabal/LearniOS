@@ -13,13 +13,13 @@
 		<string>AvenirNext-Heavy</string>
 		<string>AvenirNext-Regular</string>
 		<string>AvenirNext-Italic</string>
-		<string>Avenir-Black</string>
 		<string>CourierNewPSMT</string>
+		<string>Avenir-Black</string>
 		<string>HelveticaNeue</string>
 		<string>HelveticaNeue-Medium</string>
 	</array>
 	<key>length</key>
-	<integer>2389129</integer>
+	<integer>2395537</integer>
 	<key>version</key>
 	<integer>37</integer>
 </dict>
