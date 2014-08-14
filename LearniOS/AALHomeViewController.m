@@ -12,7 +12,9 @@
 
 @interface AALHomeViewController ()
 
+@property (nonatomic) UIView *buttonContainerView;
 @property (nonatomic) UIView *buttonBackgroundView;
+
 
 @end
 
@@ -31,24 +33,28 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
-    self.buttonBackgroundView = [[UIView alloc]initWithFrame:CGRectMake(100, 390, 120, 120)];
+    
+    self.buttonContainerView = [[UIView alloc]initWithFrame:CGRectMake(self.view.center.x - 60, self.view.bounds.size.height - 200, 120, 120)];
+    [self.view addSubview:self.buttonContainerView];
+    
+    self.buttonBackgroundView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 120, 120)];
     self.buttonBackgroundView.backgroundColor = [UIColor purpleColor];
     self.buttonBackgroundView.layer.cornerRadius = self.buttonBackgroundView.frame.size.height/2;
     self.buttonBackgroundView.clipsToBounds = YES;
-    [self.view addSubview:self.buttonBackgroundView];
     
-    UIView *buttonView = [[UIView alloc]initWithFrame:CGRectMake(110, 400, 100, 100)];
+    [self.buttonContainerView addSubview:self.buttonBackgroundView];
+    
+    UIView *buttonView = [[UIView alloc]initWithFrame:CGRectMake(10, 10, 100, 100)];
     buttonView.backgroundColor = [UIColor whiteColor];
     buttonView.layer.cornerRadius = buttonView.frame.size.height/2;
     buttonView.clipsToBounds = YES;
-    [self.view addSubview:buttonView];
+    [self.buttonContainerView addSubview:buttonView];
     
     UIButton *playButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [playButton addTarget:self action:@selector(playButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     [playButton setTitle:@"Play" forState:UIControlStateNormal];
-    playButton.frame = CGRectMake(110, 400, 100, 100);
-    [self.view addSubview:playButton];
+    playButton.frame = CGRectMake(10, 10, 100, 100);
+    [self.buttonContainerView addSubview:playButton];
 
 }
 

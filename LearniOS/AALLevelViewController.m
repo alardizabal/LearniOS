@@ -14,6 +14,9 @@
 @property (weak, nonatomic) IBOutlet UIButton *peterButton;
 @property (weak, nonatomic) IBOutlet UIButton *albertButton;
 
+@property (nonatomic) UIView *levelOneContainerView;
+@property (nonatomic) UIView *levelTwoContainerView;
+
 @end
 
 @implementation AALLevelViewController
@@ -31,6 +34,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //self.view = [UIview alloc]initWithFrame:CGRectMake(self.view.center.x, 0, <#CGFloat width#>, <#CGFloat height#>)
     
     self.view.backgroundColor = [UIColor colorWithRed:160.0/255.0 green:255.0/255.0 blue:170.0/255.0 alpha:1.0];
     
